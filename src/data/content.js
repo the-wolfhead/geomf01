@@ -35,29 +35,49 @@ export const deaconess = {
 
 export const boardMembers = [
   {
-    name: 'Barr. Osaretin Omoifo',
+    name: 'Dr. Valentine Omoifo',
     role: 'Chairman, Board of Trustees',
-    bio: 'Legal practitioner and eldest son of Deaconess Grace; oversees governance and partnerships.'
+    bio: 'Awaits.'
   },
   {
-    name: 'Mrs. Efosa Idahosa',
-    role: 'Vice Chair',
-    bio: 'Community development consultant with 15+ years in nonprofit programme design.'
+    name: 'Pst. Mrs Rufina Otabor',
+    role: 'Chief Executive Officer',
+    bio: 'Awaits'
   },
   {
-    name: 'Pastor Emmanuel Aigbe',
-    role: 'Trustee, Church Relations',
-    bio: 'Represents the church community the Deaconess served for over 40 years.'
+    name: 'Joseph Abu',
+    role: 'Rtd Coordinator NYSC',
+    bio: 'Awaits.'
   },
   {
-    name: 'Dr. (Mrs.) Blessing Uwagboe',
-    role: 'Trustee, Health & Welfare',
+    name: 'Henry Nwachukwu Ijoma',
+    role: 'Learning and Development Consultant, Abuja',
+    bio: 'Awaits.'
+  },
+  {
+    name: 'Pst. Edith Momoh',
+    role: 'Awaits',
+    bio: 'Awaits.'
+  },
+  {
+    name: 'Pst Kenneth Otabor',
+    role: ' Publisher Shalom Air Magazine int'l',
     bio: 'Physician overseeing the foundation\'s health outreach and elderly care initiatives.'
-  }
+  },
+  {
+    name: 'Dr. Casmir Omoifo',
+    role: 'awaits',
+    bio: 'Awaits.'
+  },
+  {
+    name: 'Barr. Brenda Odaudu',
+    role: 'Awaits',
+    bio: 'Awaits.'
+  },
 ];
 
 export const teamMembers = [
-  { name: 'Chidinma Ehis', role: 'Programmes Manager' },
+  { name: 'Daniel Otabor', role: 'IT' },
   { name: 'Tobenna Igbinovia', role: 'Communications & Media' },
   { name: 'Faith Osayande', role: 'Finance & Grants' },
   { name: 'Samuel Erhabor', role: 'Field Coordinator, Scholarships' },
