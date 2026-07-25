@@ -61,7 +61,7 @@ export const boardMembers = [
   },
   {
     name: 'Pst Kenneth Otabor',
-    role: ' Publisher Shalom Air Magazine int'l',
+    role: ' Publisher Shalom Air Magazine Intl ',
     bio: 'Physician overseeing the foundation\'s health outreach and elderly care initiatives.'
   },
   {
@@ -73,7 +73,7 @@ export const boardMembers = [
     name: 'Barr. Brenda Odaudu',
     role: 'Awaits',
     bio: 'Awaits.'
-  },
+  }
 ];
 
 export const teamMembers = [
