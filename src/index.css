@@ -234,13 +234,11 @@ button, input, textarea, select {
 .hero__portrait {
   aspect-ratio: 4/5;
   border-radius: var(--radius);
-  background: linear-gradient(160deg, var(--gold-soft), var(--clay) 120%);
-  display: flex; align-items: center; justify-content: center;
-  font-family: var(--font-display);
-  color: var(--ink);
-  text-align: center;
-  padding: 2rem;
+  overflow: hidden;
   box-shadow: var(--shadow);
+  object-fit: cover;
+  width: 100%;
+}
 }
 @media (max-width: 860px) {
   .hero__grid { grid-template-columns: 1fr; }
