@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import SectionDivider from '../components/SectionDivider.jsx';
 import { deaconess } from '../data/content.js';
-import matriarchPhoto from '../data/matriarch.jpg'; // match your actual filename
+import matriarchPhoto from '../data/matriarch.jpeg'; // match your actual filename
 
 export default function About() {
   return (
