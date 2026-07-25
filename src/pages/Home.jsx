@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import SectionDivider from '../components/SectionDivider.jsx';
 import ArticleCard from '../components/ArticleCard.jsx';
 import { articles, deaconess } from '../data/content.js';
+import matriarchPhoto from '../data/matriarch.jpeg'; // match your actual filename
 
 export default function Home() {
   return (
@@ -21,9 +22,11 @@ export default function Home() {
               <Link to="/about" className="btn btn--outline">Her Story</Link>
             </div>
           </div>
-          <div className="hero__portrait" aria-hidden="true">
-            Photograph of<br />Deaconess Grace<br />Eseigboria Omoifo
-          </div>
+          <img
+  src={matriarchPhoto}
+  alt="Deaconess Grace Eseigboria Omoifo"
+  className="hero__portrait"
+/>
         </div>
       </section>
 
