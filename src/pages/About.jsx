@@ -12,9 +12,11 @@ export default function About() {
           <p className="helper-text">{deaconess.years}</p>
 
           <div className="grid grid--2" style={{ marginTop: '2rem', alignItems: 'center' }}>
-            <div className="hero__portrait" style={{ boxShadow: 'var(--shadow)' }} aria-hidden="true">
-              Photograph of<br />Deaconess Grace
-            </div>
+            <img
+  src={matriarchPhoto}
+  alt="Deaconess Grace Eseigboria Omoifo"
+  className="hero__portrait"
+/>
             <div>
               <p>{deaconess.shortBio}</p>
               <p style={{ fontStyle: 'italic', color: 'var(--ink)' }}>{deaconess.quote}</p>
